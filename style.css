@@ -3,28 +3,39 @@
    width: 100%;
    height: 100%;
    margin: auto;
-   padding: 0vh;
  }
  
  .menu {
    width: 15%;
    height: 90vh;
    background:#e6ffcc;
-
    float: left;
    padding: 5px;
    text-align: center;
+   -webkit-box-shadow: 8px -9px 18px -7px #191919; 
+   box-shadow: 8px -9px 18px -7px #191919;
  }
  
  .content {
-   margin-left: 16.5%;
+   margin-left: 15%;
    height: 90vh;
-   background:#FCFDF8;
-   padding: 5px;
+  /* background: #CECCCA;
+   background: -moz-linear-gradient(top, #CECCCA 0%, #BFBDBC 58%, #474746 100%);
+   background: -webkit-linear-gradient(top, #CECCCA 0%, #BFBDBC 58%, #474746 100%);
+   background: linear-gradient(to bottom, #CECCCA 0%, #BFBDBC 58%, #474746 100%);*/
+
+   background: #7A9E7F;
+background: -moz-linear-gradient(top, #7A9E7F 0%, #6C916A 58%, #78CC91 100%);
+background: -webkit-linear-gradient(top, #7A9E7F 0%, #6C916A 58%, #78CC91 100%);
+background: linear-gradient(to bottom, #7A9E7F 0%, #6C916A 58%, #78CC91 100%);
  }
 .footer{
+   -webkit-box-shadow: 8px -9px 18px -7px #191919; 
+   box-shadow: 8px -9px 18px -7px #191919;
    background:#e6ffcc;
-   height: 7vh;
+   height: 8vh;
+   margin-top: 2px;
+  
 }
 #info{
    width: 70px;
@@ -56,6 +67,8 @@
    position: absolute;
    right: 90px;
    margin-top: 1vh;
+
+
 }
 #home{
    width: 12%;
@@ -75,7 +88,7 @@
    outline: none;
    position: absolute;
    left: 25px;
-   margin-top: 60px;
+   margin-top: 185px;
 }
 #home:hover{
    background-color:#fff;
@@ -105,7 +118,7 @@
    outline: none;
    position: absolute;
    left: 25px;
-   margin-top: 18vh;
+   margin-top: 32vh;
 }
 #shoppingcart:hover{
    background-color:#fff;
@@ -131,7 +144,7 @@
    outline: none;
    position: absolute;
    left: 25px;
-   margin-top: 28vh;
+   margin-top: 40vh;
 }
 #contact:hover{
    background-color:#fff;
@@ -145,21 +158,30 @@
    margin: 0 auto;
    width: 80%;
    background-color: white;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 .offer{
    display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+.offer > div{
+   width: 300px;
+  margin: 10px;
+  text-align: center;
 }
 .caloriecounter{
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    border: solid black;
-   width: 25%;
-  margin-top: 10px;
+   margin-top: 10px;
+   padding: 20px;
+   background:#FCFDF8;
+  
 }
 #calorieicon{
-   height: 100px;
-   width: 100px;
+   height: 70px;
+   width: 70px;
    margin-top: 5px;
 }
 .caloriecounter p,h4{
@@ -171,10 +193,46 @@
 .store{
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    border: solid black;
-   width: 30%;
+   margin-top: 10px;
+   margin-left: 30%;
+   padding: 20px;
+   background:#FCFDF8;
+}
+.store h4,p{
+   text-align: center;
+}
+.store h4{
+   text-shadow: 2px 2px 8px #e6ffcc;
+}
+.recipe{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border: solid black;
   margin-top: 10px;
   margin-left: 30%;
-  left: ;
+  padding: 20px;
+  background:#FCFDF8;
 }
- 
-
+.recipe h4,p{
+   text-align: center;
+}
+.recipe h4{
+   text-shadow: 2px 2px 8px #e6ffcc;
+}
+#recipeicon{
+   height: 70px;
+   width: 80px;
+   margin-top: 5px;
+}
+#storeicon{
+   height: 70px;
+   width: 80px;
+   margin-top: 5px; 
+}
+#logo{
+   width: 200px;
+   height: 200px;
+}
+#kitchenphoto{
+   -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -15px 24px 19px rgba(0,0,0,0); 
+   box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -15px 24px 19px rgba(0,0,0,0);
+}
