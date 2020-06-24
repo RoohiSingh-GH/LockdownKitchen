@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .container {
    width: 100%;
@@ -156,3 +157,10 @@
 
   
 }
+=======
+.menu{
+   background-color: gainsboro;
+   width: fit-content;
+   height: initial;
+}
+>>>>>>> 2d049e4af508056953557c9e08ced43ed8a2c5f6
