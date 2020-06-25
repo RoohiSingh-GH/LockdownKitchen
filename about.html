@@ -2,6 +2,8 @@
 <html>
 <head>
 <style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
 .container {
    width: 100%;
    height: 100%;
@@ -25,67 +27,109 @@
    background:#FCFDF8;
    padding: 5px;
  }
-.footer{
+.footer {
    background:#e6ffcc;
    height: 7vh;
+}
+p {
+  border: 2px solid #B0E0E6;  
+Text-align: center;
+margin-left: auto;
+    margin-right: auto;
+display: block;   
+padding: 20px;
+font-size: 20px;
+ 
+ 
+  box-shadow: 5px 10px #B0E0E6;
+}
+.new {
+
+  box-sizing: border-box;
+  border: 2px solid #FFB6C1;  
+Text-align: center;
+margin-left: auto;
+    margin-right: auto;
+display: block;   
+padding: 20px;
+font-size: 20px;
+}
+
+.new1 {
+
+  box-sizing: border-box;
+  border: 2px solid #B0E0E6;  
+Text-align: center;
+margin-left: auto;
+    margin-right: auto;
+display: block;   
+padding: 20px;
+font-size: 20px;
+}
+body {
+ background-image: url("green.jpg");
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
 }
 </style>
 </head>
 <body>
 <div class="container">
-
-
-
+             <div class="container">
+            <div class="menu">
+                <button id="home">Home</button>
+                <button id="shoppingcart">Shopping Cart</button>
+                <button id="contact">Contact</button>
+            </div>
+                    </div>
 <header>
-<h1><center>About us
+<h1 style="font-size:30px;"><center>About Us
 </center></h1>
 </header>
 <section>
 <article>
+<div class="new1">
 <table>
 <tr>
 <th colspan="4">
 
-
-<center><h1>LOCKDOWN KITCHEN</h1></center>
-<br>
-<br>
-As a kitchen is a place where memories are cooked and seasoned with love , a healthy diet is essential for a healthy immune system. Since the present scenario helped people to bring out the hidden talent where cooking is one of them, we thought of designing a web application project where:
+<center><h1 style="font-size:25px;">LOCKDOWN KITCHEN</h1></center>
+<p style="background-color:#FFB6C1;">
+As a kitchen is a place where memories are cooked and seasoned with love, a healthy diet is essential for a healthy immune system. Since the present scenario helped people to bring out the hidden talent where cooking is one of them, we thought of designing a web application project where:
 
 People would get the platform to add their delicious cooking recipes with ultimate images and share them globally.
 Keep a count of their calories in their cooked recipes.
 They get the opportunity to shop online the ingredients needed in their recipes.
-<br>
-<br>
-<br>
-<br>
-<center><h1>DEVELOPERS</h1></center>
-<br>
-<br>
-<br>
-
+</p>
+<center><h1 style="font-size:25px;">DEVELOPERS</h1></center>
 </th>
 </tr>
 <tr>
 <td>
-<center>
-<img src = "k1.JPG" height = "150px" width = "150px"> </img>
-</center>
+
+<div class = "new">
+<img src = "kavya.JPG" height = "150px" width = "150px"> </img>
+</div>
+
 </td>
 <td>
-<center>
+<div class = "new">
+
 <img src = "roohi.JPG" height = "150px" width = "150px"> </img>
-</center>
+
+</div>
 </td>
 <td>
-<center>
+<div class = "new">
 <img src = "roopa.JPG" height = "150px" width = "150px"> </img>
-</center>
+</div>
 </td>
 <td>
-<center>
+<div class = "new">
 <img src = "avinash.JPG" height = "150px" width = "150px"> </img>
-</center>
+</div>
 </td>
 </tr>
 <tr>
@@ -95,22 +139,25 @@ They get the opportunity to shop online the ingredients needed in their recipes.
 <td><center>AVINASH NACHAGONI</center></td>
 </tr>
 <tr>
-<td><center>kavyadevabhakthuni8@gmail.com</center></td>
-<td><center>singh.rhea19@gmail.com</center></td>
-<td><center>rupaparuchuri03@gmail.com</center></td>
-<td><center>nachagoniavinash@gmail.com</center></td>
+<td><center><a href="mailto:kavyadevabhakthuni8@gmail.com">kavyadevabhakthuni8@gmail.com</a></center></td>
+<td><center><a href="mailto:singh.rhea19@gmail.com">singh.rhea19@gmail.com</a></center></td>
+<td><center><a href="mailto:rupaparuchuri03@gmail.com">rupaparuchuri03@gmail.com</a></center></td>
+<td><center><a href="nachagoniavinash@gmail.com">nachagoniavinash@gmail.com</a></center></td>
 </tr>
 <tr>
-<td><center>https://github.com/kavya462</center></td>
-<td><center>https://github.com/RoohiSingh-GH</center></td>
-<td><center>https://github.com/roopakrishnaa</center></td>
-<td><center>https://github.com/avinash</center></td>
+<td><center><a href="https://github.com/kavya462">https://github.com/kavya462</a></center></td>
+<td><center><a href="https://github.com/RoohiSingh-GH">https://github.com/RoohiSingh-GH</a></center></td>
+<td><center><a href="https://github.com/roopakrishnaa">https://github.com/roopakrishnaa</a></center></td>
+<td><center><a href="https://github.com/avinash">https://github.com/avinash</a></center></td>
 </tr>
 </table>
+</div>
 </article>
 </section>
-<footer class = “footer”>
-</footer>
+<footer class="footer">
+        <img id ="aboutphoto" src="https://img.icons8.com/color/48/000000/person-male.png"/>
+        <button id="info">About</button>
+    </footer>
 </div>
 </body>
 </html>
