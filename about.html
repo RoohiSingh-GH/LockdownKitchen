@@ -2,34 +2,64 @@
 <html>
 <head>
 <style>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css">
-.container {
-   width: 100%;
-   height: 100%;
-   margin: auto;
-   padding: 0vh;
- }
- 
- .menu {
-   width: 15%;
-   height: 90vh;
-   background:#e6ffcc;
+.nav ul {
+    margin: 0;
+}
 
-   float: left;
-   padding: 5px;
-   text-align: center;
- }
- 
- .content {
-   margin-left: 16.5%;
-   height: 90vh;
-   background:#FCFDF8;
-   padding: 5px;
- }
-.footer {
-   background:#e6ffcc;
-   height: 7vh;
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("store.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.store-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: Impact, Charcoal, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+.store-name-slogan
+{
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    font-family: "Booter";
+    font-weight: normal;
+    color: white;
+}
+
+.store-name-large {
+    font-size: 4em;
 }
 p {
   border: 2px solid #B0E0E6;  
@@ -45,14 +75,13 @@ font-size: 20px;
 }
 .new {
 
-  box-sizing: border-box;
-  border: 2px solid #FFB6C1;  
+box-sizing: border-box;
+border: 2px solid black;  
 Text-align: center;
-margin-left: auto;
-    margin-right: auto;
 display: block;   
-padding: 20px;
 font-size: 20px;
+padding: 5px;
+background-color: white;
 }
 
 .new1 {
@@ -61,7 +90,7 @@ font-size: 20px;
   border: 2px solid #B0E0E6;  
 Text-align: center;
 margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
 display: block;   
 padding: 20px;
 font-size: 20px;
@@ -76,18 +105,18 @@ background-position: center;
 </style>
 </head>
 <body>
-<div class="container">
-             <div class="container">
-            <div class="menu">
-                <button id="home">Home</button>
-                <button id="shoppingcart">Shopping Cart</button>
-                <button id="contact">Contact</button>
-            </div>
-                    </div>
-<header>
-<h1 style="font-size:30px;"><center>About Us
-</center></h1>
+  <header class="main-header">
+    <nav class="main-nav nav">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1 class="store-name store-name-large">LOCKDOWN KITCHEN</h1>
+    <h6 class="store-name-slogan">The secret ingredient is always love</h6>
 </header>
+<div class="container">
+          
 <section>
 <article>
 <div class="new1">
@@ -95,7 +124,6 @@ background-position: center;
 <tr>
 <th colspan="4">
 
-<center><h1 style="font-size:25px;">LOCKDOWN KITCHEN</h1></center>
 <p style="background-color:#FFB6C1;">
 As a kitchen is a place where memories are cooked and seasoned with love, a healthy diet is essential for a healthy immune system. Since the present scenario helped people to bring out the hidden talent where cooking is one of them, we thought of designing a web application project where:
 
@@ -116,9 +144,7 @@ They get the opportunity to shop online the ingredients needed in their recipes.
 </td>
 <td>
 <div class = "new">
-
-<img src = "roohi.JPG" height = "150px" width = "150px"> </img>
-
+<img src = "roohi.jpeg" height = "150px" width = "150px"> </img>
 </div>
 </td>
 <td>
@@ -148,16 +174,12 @@ They get the opportunity to shop online the ingredients needed in their recipes.
 <td><center><a href="https://github.com/kavya462">https://github.com/kavya462</a></center></td>
 <td><center><a href="https://github.com/RoohiSingh-GH">https://github.com/RoohiSingh-GH</a></center></td>
 <td><center><a href="https://github.com/roopakrishnaa">https://github.com/roopakrishnaa</a></center></td>
-<td><center><a href="https://github.com/avinash">https://github.com/avinash</a></center></td>
+<td><center><a href="https://github.com/avinashnachagoni">https://github.com/avinashnachagoni</a></center></td>
 </tr>
 </table>
 </div>
 </article>
 </section>
-<footer class="footer">
-        <img id ="aboutphoto" src="https://img.icons8.com/color/48/000000/person-male.png"/>
-        <button id="info">About</button>
-    </footer>
 </div>
 </body>
 </html>
