@@ -71,6 +71,7 @@ background: linear-gradient(to bottom, #7A9E7F 0%, #6C916A 58%, #78CC91 100%);
 
 }
 #home{
+   
    width: 12%;
    height: 30px;
    font-family: 'Roboto', sans-serif;
@@ -235,4 +236,32 @@ background: linear-gradient(to bottom, #7A9E7F 0%, #6C916A 58%, #78CC91 100%);
 #kitchenphoto{
    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -15px 24px 19px rgba(0,0,0,0); 
    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -15px 24px 19px rgba(0,0,0,0);
+}
+a:link, a:visited {
+   text-decoration: none;
+   color: white;
+ }
+ a:hover{
+color: black;
+ }
+#linkbutton{
+   font-family: 'Roboto', sans-serif;
+   font-size: 10px;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   font-weight: 500;
+   color: #fff;
+   background-color: #000;
+   border: none;
+   border-radius: 45px;
+   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+   transition: all 0.3s ease 0s;
+   cursor: pointer;
+   padding: 5px;
+}
+#linkbutton:hover{
+   background-color:#fff;
+   box-shadow: 0px 15px 20px rgba(114, 117, 116, 0.4);
+   color: #000;
+   transform: translateY(-7px);
 }
